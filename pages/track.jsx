@@ -34,7 +34,6 @@ const track = () => {
               <h2 className='mb-5'>Project Overview</h2>
               <p>Using multithreading, I created a dynamic GUI application that simulates a race between three cars on separate tracks. Through synchronized threads, each car progresses randomly, and the first car to reach the finish line triggers a winner screen where the user can then restart the race.</p>
 
-              {/* link buttons */}
               <a href='https://noblecanni.com/' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>GitHub Repo</button>
               </a>

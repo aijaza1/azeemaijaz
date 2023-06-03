@@ -34,7 +34,6 @@ const shell = () => {
               <h2 className='mb-5'>Project Overview</h2>
               <p>I developed a custom shell program in C, where I implemented a range of built-in commands to enhance the functionality of the shell. These commands included functionalities such as printing the process ID (pid) and the parent process ID (ppid) of the shell. Additionally, I implemented commands to handle changing the current working directory (cd), exiting the shell (exit), and providing helpful information about using the shell (help). This project showcased my ability to create and integrate custom commands into a command-line program, expanding its capabilities and usability.</p>
 
-              {/* link buttons */}
               <a href='https://github.com/aijaza1/CustomShell' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
               </a>

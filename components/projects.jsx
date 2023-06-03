@@ -3,16 +3,16 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import noble from '../public/assets/projects/noblecanni.png'
-import race from '../public/assets/projects/carsc.png'
-import app from '../public/assets/projects/vcuapp.png'
-import cards from '../public/assets/projects/flashcard.png'
-import brightminds from '../public/assets/projects/brightminds.png'
-import fifo from '../public/assets/projects/a3fifo.png'
-import shell from '../public/assets/projects/shell.png'
-import capstone from '../public/assets/projects/capstonesc.png'
-import cap from '../public/assets/projects/capstoneposter.png'
-import ProjectItem from '../components/ProjectItem'
+import noble from '/public//assets/projects/noblecanni.png';
+import race from '/public/assets/projects/carsc.png';
+import app from '/public/assets/projects/vcuapp.png';
+import cards from '/public/assets/projects/flashcard.png';
+import brightminds from '/public/assets/projects/brightminds.png';
+import fifo from '/public/assets/projects/a3fifo.png';
+import shell from '/public/assets/projects/shell.png';
+import capstone from '/public/assets/projects/capstonesc.png';
+import cap from '/public/assets/projects/capstoneposter.png';
+import ProjectItem from '../components/ProjectItem';
 import { useState, useRef} from 'react';
 
 
@@ -66,7 +66,7 @@ const Projects = () => {
   
     const handleSeeLess = () => {
       setVisibleProjects(maxVisibleProjects);
-      window.location.href = '/#projects'; // Redirect to the projects section
+      window.location.href = '/#projects'; 
     };
   
     const projectsToDisplay = allProjects.slice(0, visibleProjects);
@@ -76,7 +76,7 @@ const Projects = () => {
     return (
       <div id='projects' className='w-full'>
         <div className='max-2-[1240px] mx-auto px-20 py-16'>
-          <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-8'>// Projects</p>
+          <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-8'>Projects</p>
           <h2 className='pt-4 pb-8'>What I've Built</h2>
   
           <div className='grid md:grid-cols-2 gap-8'>

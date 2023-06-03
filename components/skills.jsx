@@ -7,7 +7,7 @@ const skills = () => {
     
     <div id='skills' className='w-full lg:h-screen p-2 pt-24'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-start h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-2'>// Skills</p>
+            <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-2'>Skills</p>
             <h2 className='py-6'>What I Can Do</h2>
 
             <div className=' py-6 grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
@@ -17,7 +17,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/html.png' 
+                        src='/assets/skills/html.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -34,7 +34,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/css.png' 
+                        src='/assets/skills/css.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -51,7 +51,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/javascript.png' 
+                        src='/assets/skills/javascript.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -68,7 +68,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/python.png' 
+                        src='/assets/skills/python.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -85,7 +85,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/java.png' 
+                        src='/assets/skills/java.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -102,7 +102,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/c.png' 
+                        src='/assets/skills/c.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -119,7 +119,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/sql1.png' 
+                        src='/assets/skills/sql1.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -136,7 +136,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/vscode.png' 
+                        src='/assets/skills/vscode.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -153,7 +153,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/github1.png' 
+                        src='/assets/skills/github1.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -170,7 +170,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/react.png' 
+                        src='/assets/skills/react.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -187,7 +187,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/nextjs.png' 
+                        src='/assets/skills/nextjs.png' 
                         width='64'
                         height='64'
                         alt='/' />
@@ -204,7 +204,7 @@ const skills = () => {
                     
                     <div className='m-auto'>
                         <Image 
-                        src='/../public/assets/skills/node.png' 
+                        src='/assets/skills/node.png' 
                         width='64'
                         height='64'
                         alt='/' />

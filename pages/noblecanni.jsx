@@ -25,7 +25,7 @@ const noblecanni = () => {
             
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
               <h2>Noble Canni</h2>
-              <h3>// Web Development Internship</h3>
+              <h3>Web Development Internship</h3>
             </div>
 
           </div>
@@ -36,7 +36,7 @@ const noblecanni = () => {
               <p>During my web development internship at NobleCanni, I played an important role in completely redesigning their website, resulting in a significant improvement in its visual appeal and user experience. Working closely with the CEO and the developer team, I revitalized various sections, incorporating modern design elements and intuitive interfaces. Through meticulous attention to detail and rigorous testing, I ensured the website was not only aesthetically pleasing but also optimized for performance and accessibility.</p>
               <p className='pt-3'>The successful redesign received positive feedback, showcasing NobleCanni's brand identity more effectively and enhancing user engagement. This internship allowed me to enhance my skills in web design, front-end development, and project management while emphasizing the importance of delivering an exceptional user experience.</p>
 
-              {/* link buttons */}
+
               <a href='https://noblecanni.com/' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'> Current Site</button>
               </a>

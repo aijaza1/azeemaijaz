@@ -12,7 +12,7 @@ const contact = () => {
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
 
             <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-8'>
-                // Contact
+                 Contact
             </p>
 
             <h2 className='py-4'>Get In Touch With Me</h2>

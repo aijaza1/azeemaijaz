@@ -35,7 +35,6 @@ const card = () => {
               <h2 className='mb-3'>Project Overview</h2>
               <p>In a personal project, I developed a flashcard app using Python and utilized the Tkinter library for the graphical user interface. The goal was to create a tool for practicing words in my home language, Urdu. With the app, I could easily add new words to the flashcard deck and review them at my own pace. The intuitive interface allowed me to navigate through the flashcards and test my knowledge effectively. By implementing this project, I enhanced my Python programming skills and created a practical tool for language learning tailored to my or any user's specific needs.</p>
              
-              {/* link buttons */}
               <a href='https://github.com/aijaza1/Flashcard' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
               </a>

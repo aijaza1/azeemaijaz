@@ -35,7 +35,6 @@ const app = () => {
               <h2 className='mb-5'>Project Overview</h2>
               <p>In my web design class, as a team, we redesigned our school's app's (VCU) lackluster UX/UI designs using Figma. Through collaborative efforts on Discord, we created a comprehensive mock-up with intuitive navigation and modern aesthetics. We refined the design, and strengthened our UX/UI and teamwork skills. The result was a visually appealing and engaging app redesign.</p>
 
-              {/* link buttons */}
               <a href='https://www.figma.com/file/xWX7X03O0Y6B6UgdvO5BuO/VCU-Super-App?type=design&node-id=0%3A1&t=OXsDfCwZWpn9mbB8-1' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>Link</button>
               </a>

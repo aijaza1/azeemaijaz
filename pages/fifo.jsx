@@ -34,7 +34,6 @@ const fifo = () => {
               <h2 className='mb-5'>Project Overview</h2>
               <p>This project involved implementing a multi-process and multi-threaded print server in C on the command line. It required creating a globally shared printer queue, managing user processes as producers, and printer threads as consumers. The project also included handling command line parameters, graceful termination using signal handlers, and generating a final report that analyzed execution times and waiting times for different queue implementations.</p>
 
-              {/* link buttons */}
               <a href='https://github.com/aijaza1/Multi-Process-ThreadPrintServer' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
               </a>

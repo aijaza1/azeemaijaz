@@ -26,7 +26,7 @@ const capstone = () => {
             
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
               <h2>Data-Science Based Modules for Digital Forensics</h2>
-              <h3>// Senior Capstone - 4 Person Project</h3>
+              <h3>Senior Capstone - 4 Person Project</h3>
 
             </div>
 
@@ -38,8 +38,7 @@ const capstone = () => {
               <p>This project aimed to assist forensic scientists with limited coding experience by providing user-friendly learning modules in the areas of Chat Logs and Images. Sponsored by VCU College of Engineering and guided by Kostadin Damevski, our objective was to develop entry-level friendly data science modules that would support the transition of digital forensic investigators into the field.</p>
               <p className='pt-3'>As a key member of the project, I played a crucial role in scheduling meetings, driving the project's progress, and ensuring effective collaboration among team members. I conducted extensive research to expand the modules with additional sections and implemented emotion detection for chat log messages. Additionally, I created visual graphs to enhance data visualization and analysis for forensic scientists.</p>
               <p className='pt-3'>These contributions aimed to empower forensic scientists by equipping them with coding techniques to expedite their tasks and gain deeper insights into the data they analyze.</p>
-             
-              {/* link buttons */}
+
               <a href='https://github.com/aijaza1/CapstoneProject' alt='/' target='_blank'>
                 <button className='px-8 py-2 mt-4 mr-8'>GitHub Repo</button>
               </a>
