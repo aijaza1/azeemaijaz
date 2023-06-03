@@ -10,7 +10,6 @@ import cards from '/public/assets/projects/flashcard.png';
 import brightminds from '/public/assets/projects/brightminds.png';
 import fifo from '/public/assets/projects/a3fifo.png';
 import shell from '/public/assets/projects/shell.png';
-import capstone from '/public/assets/projects/capstonesc.png';
 import cap from '/public/assets/projects/capstoneposter.png';
 import ProjectItem from '../components/ProjectItem';
 import { useState, useRef} from 'react';
@@ -22,7 +21,7 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/noblecanni'
+        projectUrl: '/../pages/noblecanni'
       },
       {
         title: 'Capstone Project',
