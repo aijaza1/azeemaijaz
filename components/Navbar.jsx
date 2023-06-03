@@ -106,7 +106,7 @@ const Navbar = () => {
 
         </div>
 
-     \
+     
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
           
 
