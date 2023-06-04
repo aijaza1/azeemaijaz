@@ -77,23 +77,23 @@ const Navbar = () => {
             <div>
 
             <ul className='hidden md:flex mr-14'>
-              <li className='ml-10 text-md uppercase hover:text-[#DA0037] hover:font-semibold'>
+              <li className='ml-10 text-md uppercase hover:text-[#DA0037]'>
                 <Link href='/'>Home</Link>
               </li>
 
-              <li className='ml-10 text-md uppercase hover:text-[#DA0037] hover:font-semibold'>
+              <li className='ml-10 text-md uppercase hover:text-[#DA0037]'>
                 <Link href='/#about'>About</Link>
               </li>
 
-              <li className='ml-10 text-md uppercase hover:text-[#DA0037] hover:font-semibold'>
+              <li className='ml-10 text-md uppercase hover:text-[#DA0037]'>
                 <Link href='/#skills'>Skills</Link>
               </li>
 
-              <li className='ml-10 text-md uppercase hover:text-[#DA0037] hover:font-semibold'>
+              <li className='ml-10 text-md uppercase hover:text-[#DA0037]'>
                 <Link href='/#projects'>Projects</Link>
               </li>
 
-              <li className='ml-10 text-md uppercase hover:text-[#DA0037] hover:font-semibold'>
+              <li className='ml-10 text-md uppercase hover:text-[#DA0037]'>
                 <Link href='/#contact'>Contact</Link>
               </li>
             </ul>
@@ -138,23 +138,23 @@ const Navbar = () => {
             <div className='py-4 flex flex-col'>
               <ul className='uppercase'>
                 <Link href='/'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037] hover:font-bold'>Home</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037]'>Home</li>
                 </Link>
 
                 <Link href='/#about'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037] hover:font-bold'>About</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037]'>About</li>
                 </Link>
 
                 <Link href='/#skills'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037] hover:font-bold'>Skills</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037]'>Skills</li>
                 </Link>
 
                 <Link href='/#projects'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037] hover:font-bold'>Projects</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037]'>Projects</li>
                 </Link>
 
                 <Link href='/#contact'>
-                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037] hover:font-bold'>Contact</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-md hover:text-[#DA0037]'>Contact</li>
                 </Link>
               </ul>
 

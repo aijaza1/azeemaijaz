@@ -21,37 +21,37 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/aijaza1.github.io/noblecanni'
+        projectUrl: 'aijaza1.github.io/noblecanni'
       },
       {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: '/aijaza1.github.io/capstone'
+        projectUrl: 'aijaza1.github.io/capstone'
       },
       {
         title: 'Java Race Track',
         backgroundImg: race,
         tools: 'Java | JavaFX | IntelliJ',
-        projectUrl: '/aijaza1.github.io/track'
+        projectUrl: 'aijaza1.github.io/track'
       },
       {
         title: 'Flash Card App',
         backgroundImg: cards,
         tools: 'Python | PyCharm | Tkinter',
-        projectUrl: '/aijaza1.github.io/card'
+        projectUrl: 'aijaza1.github.io/card'
       },
       {
         title: 'VCU App Redesign',
         backgroundImg: app,
         tools: 'Figma | Discord',
-        projectUrl: '/aijaza1.github.io/app'
+        projectUrl: 'aijaza1.github.io/app'
       },
       {
         title: 'FIFO Multi-Threaded Queue',
         backgroundImg: fifo,
         tools: 'C | Linux | Command Line',
-        projectUrl: '/aijaza1.github.io/fifo'
+        projectUrl: 'aijaza1.github.io/fifo'
       },
       
     ];
