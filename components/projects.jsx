@@ -27,7 +27,7 @@ const Projects = () => {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: 'capstone'
+        projectUrl: '/capstone'
       },
       {
         title: 'Java Race Track',
@@ -45,7 +45,7 @@ const Projects = () => {
         title: 'VCU App Redesign',
         backgroundImg: app,
         tools: 'Figma | Discord',
-        projectUrl: 'pages/app.jsx'
+        projectUrl: 'app'
       },
       {
         title: 'FIFO Multi-Threaded Queue',
