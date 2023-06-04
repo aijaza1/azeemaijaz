@@ -11,11 +11,11 @@ import brightminds from '/public/assets/projects/brightminds.png';
 import fifo from '/public/assets/projects/a3fifo.png';
 import shell from '/public/assets/projects/shell.png';
 import cap from '/public/assets/projects/capstoneposter.png';
-import ProjectItem from '../components/ProjectItem';
+import ProjectItem from './ProjectItem';
 import { useState, useRef} from 'react';
 
 
-const projects = () => {
+const Projects = () => {
     const allProjects = [
       {
         title: 'NobleCanni Internship',
@@ -116,4 +116,4 @@ const projects = () => {
     );
   };
   
-  export default projects;
+  export default Projects;
