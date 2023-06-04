@@ -21,19 +21,19 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/pages/noblecanni.jsx'
+        projectUrl: '/noblecanni/'
       },
       {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: ('/capstone')
+        projectUrl: '/capstone.jsx/'
       },
       {
         title: 'Java Race Track',
         backgroundImg: race,
         tools: 'Java | JavaFX | IntelliJ',
-        projectUrl: '/(track)'
+        projectUrl: '/track/'
       },
       {
         title: 'Flash Card App',
@@ -45,7 +45,7 @@ const Projects = () => {
         title: 'VCU App Redesign',
         backgroundImg: app,
         tools: 'Figma | Discord',
-        projectUrl: '../app'
+        projectUrl: 'pages/app.jsx'
       },
       {
         title: 'FIFO Multi-Threaded Queue',
