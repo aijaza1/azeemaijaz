@@ -1,4 +1,4 @@
-import Navbar from './Navbar'
+import Navbar from '../components/Navbar'
 import '../app/globals.css'
 import Image from 'next/image'
 import React from 'react'
