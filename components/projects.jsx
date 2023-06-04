@@ -27,7 +27,7 @@ const Projects = () => {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: 'capstone.jsx'
+        projectUrl: '/capstone'
       },
       {
         title: 'Java Race Track',
