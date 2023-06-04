@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import {AiOutlineFileJpg} from 'react-icons/ai'
 
 const main = () => {
   return (
@@ -46,7 +47,7 @@ const main = () => {
 
                     <a href='/assets/AzeemAijaz-Resume.pdf' alt='/' target='_blank'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill size={25}/>
+                            <AiOutlineFileJpg size={25}/>
                         </div>
                     </a>
                 </div>

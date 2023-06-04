@@ -7,6 +7,8 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {usePathname } from 'next/navigation';
+import {AiOutlineFileJpg} from 'react-icons/ai'
+
 
 const Navbar = () => {
 
@@ -187,7 +189,7 @@ const Navbar = () => {
 
                 <a href='/assets/AzeemAijaz-Resume.pdf' alt='/' target='_blank'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
+                    <AiOutlineFileJpg />
                   </div>
                 </a>
 
