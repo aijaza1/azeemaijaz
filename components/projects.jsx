@@ -21,13 +21,13 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: 'aijaza1.github.io/noblecanni'
+        projectUrl: 'noblecanni'
       },
       {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: 'aijaza1.github.io/capstone'
+        projectUrl: 'capstone'
       },
       {
         title: 'Java Race Track',
