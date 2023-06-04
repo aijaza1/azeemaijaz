@@ -21,19 +21,19 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/noblecanni/'
+        projectUrl: '/noblecanni'
       },
       {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: '/capstone'
+        projectUrl: 'capstone'
       },
       {
         title: 'Java Race Track',
         backgroundImg: race,
         tools: 'Java | JavaFX | IntelliJ',
-        projectUrl: '/track'
+        projectUrl: 'track.jsx'
       },
       {
         title: 'Flash Card App',
