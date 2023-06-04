@@ -15,7 +15,7 @@ import ProjectItem from '../components/ProjectItem';
 import { useState, useRef} from 'react';
 
 
-const Projects = () => {
+const projects = () => {
     const allProjects = [
       {
         title: 'NobleCanni Internship',
@@ -116,4 +116,4 @@ const Projects = () => {
     );
   };
   
-  export default Projects;
+  export default projects;
