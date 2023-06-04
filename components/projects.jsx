@@ -27,31 +27,31 @@ const Projects = () => {
         title: 'Capstone Project',
         backgroundImg: cap,
         tools: 'Google Colab | Python | GitHub',
-        projectUrl: '/capstone'
+        projectUrl: 'capstone.jsx'
       },
       {
         title: 'Java Race Track',
         backgroundImg: race,
         tools: 'Java | JavaFX | IntelliJ',
-        projectUrl: 'track.jsx'
+        projectUrl: '/track'
       },
       {
         title: 'Flash Card App',
         backgroundImg: cards,
         tools: 'Python | PyCharm | Tkinter',
-        projectUrl: '/card.jsx'
+        projectUrl: '/card'
       },
       {
         title: 'VCU App Redesign',
         backgroundImg: app,
         tools: 'Figma | Discord',
-        projectUrl: 'app'
+        projectUrl: '/app'
       },
       {
         title: 'FIFO Multi-Threaded Queue',
         backgroundImg: fifo,
         tools: 'C | Linux | Command Line',
-        projectUrl: '../fifo.jsx'
+        projectUrl: '/fifo'
       },
       
     ];
