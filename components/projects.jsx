@@ -12,6 +12,8 @@ import fifo from '/public/assets/projects/a3fifo.png';
 import shell from '/public/assets/projects/shell.png';
 import cap from '/public/assets/projects/capstoneposter.png';
 import ProjectItem from './ProjectItem';
+import link from '/noblecanni.jsx'
+import link2 from '/track'
 import { useState, useRef} from 'react';
 
 
@@ -21,7 +23,7 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/noblecanni/'
+        projectUrl: 'link'
       },
       {
         title: 'Capstone Project',
@@ -33,7 +35,7 @@ const Projects = () => {
         title: 'Java Race Track',
         backgroundImg: race,
         tools: 'Java | JavaFX | IntelliJ',
-        projectUrl: '/track/'
+        projectUrl: 'link2'
       },
       {
         title: 'Flash Card App',
