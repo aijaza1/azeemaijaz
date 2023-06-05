@@ -79,7 +79,20 @@ const Projects = () => {
           <h2 className='pt-4 pb-8'>What I've Built</h2>
   
           <div className='grid md:grid-cols-2 gap-8'>
+<<<<<<< HEAD
 
+=======
+          
+              <ProjectItem
+
+                title={"Test"}
+                backgroundImg={noble}
+                tools={"test"}
+                projectUrl={"/noblecanni"}
+              />
+            
+            
+>>>>>>> parent of 1cdf2e0 (test)
             {projectsToDisplay.map((project, index) => (
               <ProjectItem
                 key={index}
