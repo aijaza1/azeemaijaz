@@ -79,7 +79,7 @@ const Projects = () => {
           <h2 className='pt-4 pb-8'>What I've Built</h2>
   
           <div className='grid md:grid-cols-2 gap-8'>
-       
+
             {projectsToDisplay.map((project, index) => (
               <ProjectItem
                 key={index}
