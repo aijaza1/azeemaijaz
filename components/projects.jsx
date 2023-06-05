@@ -21,7 +21,7 @@ const Projects = () => {
         title: 'NobleCanni Internship',
         backgroundImg: noble,
         tools: 'WordPress | HTML | CSS | JS',
-        projectUrl: '/noblecanni'
+        projectUrl: '/test'
       },
       {
         title: 'Capstone Project',
