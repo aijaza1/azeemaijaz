@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
-import {AiOutlineFileJpg} from 'react-icons/ai'
+import {AiOutlineFilePdf} from 'react-icons/ai'
 
 
 
@@ -61,7 +61,7 @@ const contact = () => {
 
                     <a href='/assets/AzeemAijaz-Resume.pdf' alt='/' target='_blank'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineFileJpg />
+                            <AiOutlineFilePdf />
                         </div>
                     </a>
 
