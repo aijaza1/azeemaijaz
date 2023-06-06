@@ -1,14 +1,16 @@
-import Navbar from '../components/Navbar'
+{/* 
+
+import Navbar from '../app/components/Navbar'
 import '../app/globals.css'
 import Image from 'next/image'
 import React from 'react'
-import img from '../public/assets/projects/noblecanni.png'
+import img from '../public/assets/projects/shell.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
 
 
-const noblecanni = () => {
+const shell = () => {
   return (
 
     
@@ -24,8 +26,7 @@ const noblecanni = () => {
             <Image className='absolute z-1' layout='fill' objectFit='cover' src={img} alt='/' />
             
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-              <h2>Noble Canni</h2>
-              <h3>Web Development Internship</h3>
+              <h2>Custom Bash Shell</h2>
             </div>
 
           </div>
@@ -33,12 +34,10 @@ const noblecanni = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
               <h2 className='mb-5'>Project Overview</h2>
-              <p>During my web development internship at NobleCanni, I played an important role in completely redesigning their website, resulting in a significant improvement in its visual appeal and user experience. Working closely with the CEO and the developer team, I revitalized various sections, incorporating modern design elements and intuitive interfaces. Through meticulous attention to detail and rigorous testing, I ensured the website was not only aesthetically pleasing but also optimized for performance and accessibility.</p>
-              <p className='pt-3'>The successful redesign received positive feedback, showcasing NobleCanni's brand identity more effectively and enhancing user engagement. This internship allowed me to enhance my skills in web design, front-end development, and project management while emphasizing the importance of delivering an exceptional user experience.</p>
+              <p>I developed a custom shell program in C, where I implemented a range of built-in commands to enhance the functionality of the shell. These commands included functionalities such as printing the process ID (pid) and the parent process ID (ppid) of the shell. Additionally, I implemented commands to handle changing the current working directory (cd), exiting the shell (exit), and providing helpful information about using the shell (help). This project showcased my ability to create and integrate custom commands into a command-line program, expanding its capabilities and usability.</p>
 
-
-              <a href='https://noblecanni.com/' alt='/' target='_blank'>
-                <button className='px-8 py-2 mt-4 mr-8'> Current Site</button>
+              <a href='https://github.com/aijaza1/CustomShell' alt='/' target='_blank'>
+                <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
               </a>
               
             </div>
@@ -48,20 +47,17 @@ const noblecanni = () => {
                 <p className='text-center font-bold pb-2'>Technologies</p>
                 <div className='grid grid-cols-3 md:grid-cols-1'>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> WordPress
+                    <RiRadioButtonFill /> C
                   </p>
 
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> HTML
+                    <RiRadioButtonFill /> Linux
                   </p>
 
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> CSS
+                    <RiRadioButtonFill /> Command Line
                   </p>
 
-                  <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> JavaScript
-                  </p>
                 </div>
 
               </div>
@@ -78,4 +74,6 @@ const noblecanni = () => {
   )
 }
 
-export default noblecanni
+export default shell
+
+*/}

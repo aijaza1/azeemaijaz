@@ -1,14 +1,16 @@
+{/* 
+
 import Navbar from '../components/Navbar'
 import '../app/globals.css'
 import Image from 'next/image'
 import React from 'react'
-import img from '../public/assets/projects/carsc.png'
+import img from '../public/assets/projects/vcuapp.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
 
 
-const track = () => {
+const app = () => {
   return (
 
     
@@ -24,7 +26,8 @@ const track = () => {
             <Image className='absolute z-1' layout='fill' objectFit='cover' src={img} alt='/' />
             
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-              <h2>JavaFX Race Track</h2>
+              <h2>VCU App Redesign</h2>
+              <h3>Team Project</h3>
             </div>
 
           </div>
@@ -32,10 +35,10 @@ const track = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
               <h2 className='mb-5'>Project Overview</h2>
-              <p>Using multithreading, I created a dynamic GUI application that simulates a race between three cars on separate tracks. Through synchronized threads, each car progresses randomly, and the first car to reach the finish line triggers a winner screen where the user can then restart the race.</p>
+              <p>In my web design class, as a team, we redesigned our school's app's (VCU) lackluster UX/UI designs using Figma. Through collaborative efforts on Discord, we created a comprehensive mock-up with intuitive navigation and modern aesthetics. We refined the design, and strengthened our UX/UI and teamwork skills. The result was a visually appealing and engaging app redesign.</p>
 
-              <a href='https://noblecanni.com/' alt='/' target='_blank'>
-                <button className='px-8 py-2 mt-4 mr-8'>GitHub Repo</button>
+              <a href='https://www.figma.com/file/xWX7X03O0Y6B6UgdvO5BuO/VCU-Super-App?type=design&node-id=0%3A1&t=OXsDfCwZWpn9mbB8-1' alt='/' target='_blank'>
+                <button className='px-8 py-2 mt-4 mr-8'>Link</button>
               </a>
               
             </div>
@@ -45,15 +48,11 @@ const track = () => {
                 <p className='text-center font-bold pb-2'>Technologies</p>
                 <div className='grid grid-cols-3 md:grid-cols-1'>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> Java
+                    <RiRadioButtonFill /> Figma
                   </p>
 
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> JavaFX
-                  </p>
-
-                  <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill /> IntelliJ
+                    <RiRadioButtonFill /> Discord
                   </p>
 
                 </div>
@@ -72,4 +71,6 @@ const track = () => {
   )
 }
 
-export default track
+export default app
+
+*/}

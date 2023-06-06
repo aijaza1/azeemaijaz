@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from './components/Navbar'
-import Main from './components/main'
-import About from './components/about'
-import Skills from './components/skills'
-import Projects from './components/projects'
-import Contact from './components/contact'
+import Navbar from '../components/Navbar'
+import Main from '../components/main'
+import About from '../components/about'
+import Skills from '../components/skills'
+import Projects from '../components/projects'
+import Projects2 from '../components/projects2'
+import Contact from '../components/contact'
 
 
 
@@ -21,7 +22,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
-      <Projects />
+      <Projects2 />
       <Contact />
 
    </div>
