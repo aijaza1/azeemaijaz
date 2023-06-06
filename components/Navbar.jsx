@@ -115,9 +115,9 @@ const Navbar = () => {
           <div className={
           nav 
           ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
-          : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
+          : 'fixed left-[-120%] top-0 p-10 ease-in duration-500'}>
             
-            <div className='sm:hidden '>
+            <div className='sm:hidden'>
               <div className='flex w-full items-center justify-between'>
                 
                 <Link href='/'>
@@ -131,7 +131,7 @@ const Navbar = () => {
               </div>
 
               <div className='border-b border-gray-300 my-4'>
-                <p className='w-[70%] md:w-[80%] py-4 font-semibold'>A Passionate Web Developer / Software Engineer </p>
+                <p className='w-[80%] md:w-[80%] py-4 font-semibold'>A Passionate Web Developer / Software Engineer</p>
               </div>
 
               
@@ -166,7 +166,7 @@ const Navbar = () => {
 
 
                 
-                <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                <div className='flex items-center justify-between my-4 w-full sm:w-[70%]'>
 
 
                 <a href='https://www.linkedin.com/in/azeem-aijaz/' alt='/' target='_blank'>
