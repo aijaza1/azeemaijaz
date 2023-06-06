@@ -31,7 +31,7 @@ const Projects2 = () => {
     
     return (
       <div id='projects' className='w-full'>
-      <div className='max-2-[1240px] mx-auto px-10 py-16'>
+      <div className='max-2-[1240px] mx-auto px-4 md:px-10 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#DA0037] mt-8'>Projects</p>
         <h2 className='pt-4 pb-8'>What I've Built</h2>
         
