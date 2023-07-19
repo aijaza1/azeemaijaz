@@ -18,7 +18,7 @@ const Projects = () => {
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='mt-12 text-xl tracking-widest uppercase text-[#DA0037]'>
-          Project
+          Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
