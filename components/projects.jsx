@@ -26,7 +26,7 @@ const Projects = () => {
           <ProjectItem
             title='NobleCanni Web Dev Intern'
             backgroundImg={nobleImg}
-            projectUrl='/noble'
+            projectUrl='../pages/noble'
             tools='Wordpress, HTML, CSS, JS'
           />
 

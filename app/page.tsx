@@ -6,6 +6,7 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
 import Contact from "../components/contact";
+import Noble from "../pages/noble";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
+      <Noble />
       <Main />
       <About />
       <Skills />
