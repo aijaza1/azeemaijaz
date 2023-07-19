@@ -12,6 +12,9 @@ const ProjectItem = ({title, backgroundImg, tech, projectUrl}) => {
         <Link to={projectUrl}>
           <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
         </Link>
+        <Link to={/pages/projectUrl}>
+          <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+        </Link>
       
     </div>
  </div>
