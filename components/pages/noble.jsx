@@ -4,7 +4,7 @@ import '../app/globals.css'
 import nobleImg from '/public/assets/projects/noblecanni.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import Navbar from "../components/Navbar";
+import Navbar from "../Navbar";
 
 
 const noble = () => {

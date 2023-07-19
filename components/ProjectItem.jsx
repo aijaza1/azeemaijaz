@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+// if projectURL == '/noble' go to '/noble'
 
 const ProjectItem = ({title, backgroundImg, tools, projectUrl}) => {
   return (
@@ -9,8 +10,8 @@ const ProjectItem = ({title, backgroundImg, tools, projectUrl}) => {
     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
         <p className='pb-4 pt-2 text-white text-center'>{tools}</p>
-        
-        <Link href={projectUrl}>
+
+        <Link href='/noble'>
           <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
         </Link>
       
