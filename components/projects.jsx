@@ -22,13 +22,7 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItem
-            title='NobleCanni Web Dev Intern'
-            backgroundImg={nobleImg}
-            projectUrl='/pages/noble'
-            tools='Wordpress, HTML, CSS, JS'
-          />
-
+          
           <ProjectItem
             title='NobleCanni Web Dev Intern'
             backgroundImg={nobleImg}
@@ -36,13 +30,6 @@ const Projects = () => {
             tools='Wordpress, HTML, CSS, JS'
           />
 
-            <ProjectItem
-            title='NobleCanni Web Dev Intern'
-            backgroundImg={nobleImg}
-            projectUrl='/noble.jsx'
-            tools='Wordpress, HTML, CSS, JS'
-          />
-          
           
 
         </div>

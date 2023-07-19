@@ -16,8 +16,7 @@ const ProjectItem = ({title, backgroundImg, tech, projectUrl}) => {
         <Link href={projectUrl} passHref>
           <a className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</a>
         </Link>
-        <Link to={{ pathname: {projectUrl} }} target="_blank">Click me</Link>
-        <Link to={{ pathname: projectUrl }} target="_blank">Click me</Link>
+      
     </div>
  </div>
   )
