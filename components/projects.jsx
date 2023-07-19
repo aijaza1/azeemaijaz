@@ -23,6 +23,7 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           
+          
           <ProjectItem
             title='NobleCanni Web Dev Intern'
             backgroundImg={nobleImg}
