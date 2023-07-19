@@ -29,10 +29,17 @@ const Projects = () => {
             tools='Wordpress, HTML, CSS, JS'
           />
 
+          <ProjectItem
+            title='NobleCanni Web Dev Intern'
+            backgroundImg={nobleImg}
+            projectUrl='/noble'
+            tools='Wordpress, HTML, CSS, JS'
+          />
+
             <ProjectItem
             title='NobleCanni Web Dev Intern'
             backgroundImg={nobleImg}
-            projectUrl='/#noble'
+            projectUrl='/noble.jsx'
             tools='Wordpress, HTML, CSS, JS'
           />
           
