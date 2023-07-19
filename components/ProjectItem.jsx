@@ -14,8 +14,12 @@ const ProjectItem = ({title, backgroundImg, tools, projectUrl}) => {
         <Link href='/noble'>
           <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
         </Link>
-        
+
         <Link href='/noble2'>
+          <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+        </Link>
+
+        <Link href='/noble3'>
           <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
         </Link>
       
