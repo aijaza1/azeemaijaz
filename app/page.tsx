@@ -5,7 +5,6 @@ import Main from "../components/main";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
-import Projects2 from "../components/projects2";
 import Contact from "../components/contact";
 
 export default function Home() {
