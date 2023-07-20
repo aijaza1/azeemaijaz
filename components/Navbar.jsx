@@ -17,13 +17,12 @@ const Navbar = () => {
   const specialRoutes = [
 
     '/noble',
-    '/brightminds',
-    '/fifo',
+    '/comfort',
+    '/capstone',
     '/card',
     '/track',
     '/app',
     '/shell',
-    '/capstone',
   ];
 
   // Function to scroll to a specific section
