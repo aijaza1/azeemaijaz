@@ -20,9 +20,8 @@ const Navbar = () => {
     '/comfort',
     '/capstone',
     '/card',
-    '/track',
-    '/app',
-    '/shell',
+    '/car',
+    '/fifo',
   ];
 
   // Function to scroll to a specific section

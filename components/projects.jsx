@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import nobleImg from '/public/assets/projects/noblecanni.png';
+import comfortImg from '/public/assets/projects/comfortcaloriesc.png';
 import race from '/public/assets/projects/carsc.png';
 import app from '/public/assets/projects/vcuapp.png';
 import cards from '/public/assets/projects/flashcard.png';
@@ -28,7 +29,37 @@ const Projects = () => {
             title='NobleCanni Web Dev Intern'
             backgroundImg={nobleImg}
             projectUrl='/noble'
-            tools='Wordpress, HTML, CSS, JS'
+            tools='Wordpress | HTML | CSS | JS'
+          />
+          <ProjectItem
+            title='Comfort Calorie'
+            backgroundImg={comfortImg}
+            projectUrl='/comfort'
+            tools='NextJS | React | TailwindCSS | GitHub | Vercel'
+          />
+          <ProjectItem
+            title='Capstone Project'
+            backgroundImg={cap}
+            projectUrl='/capstone'
+            tools='Google Colab | Python | GitHub'
+          />
+          <ProjectItem
+            title='JavaFX Race Track'
+            backgroundImg={race}
+            projectUrl='/car'
+            tools='Java | JavaFX | IntelliJ'
+          />
+          <ProjectItem
+            title='Flash Card App'
+            backgroundImg={cards}
+            projectUrl='/card'
+            tools='Python | PyCharm | Tkinter'
+          />
+          <ProjectItem
+            title='FIFO Multi-Threaded Queue'
+            backgroundImg={fifo}
+            projectUrl='/fifo'
+            tools='C | Linux | Command Line'
           />
 
           
