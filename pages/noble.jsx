@@ -7,11 +7,13 @@ import Link from 'next/link';
 import Navbar from "../components/Navbar";
 
 
+
 const noble = () => {
     return (
 
     
         <><div>
+          
           <Navbar />
     
         </div>
