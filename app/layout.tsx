@@ -1,18 +1,18 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Roboto } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Roboto({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: 'Azeem | Portfolio',
-  description: 'Personal Portfolio created using Next.js & React',
-  favicon: '/assets/mynewicon.png',
-}
+  title: "Azeem | Portfolio",
+  description: "Personal Portfolio created using Next.js & React",
+  favicon: "/assets/mynewicon.png",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode 
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -21,5 +21,5 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
