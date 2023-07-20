@@ -32,7 +32,6 @@ const car = () => {
                 
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                   <h2>JavaFx Race Track</h2>
-                  <h3>Personal Project</h3>
                 </div>
     
               </div>
@@ -40,12 +39,12 @@ const car = () => {
               <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
                   <h2 className='mb-5'>Project Overview</h2>
-                  <p>During my web development internship at NobleCanni, I played an important role in completely redesigning their website, resulting in a significant improvement in its visual appeal and user experience. Working closely with the CEO and the developer team, I revitalized various sections, incorporating modern design elements and intuitive interfaces. Through meticulous attention to detail and rigorous testing, I ensured the website was not only aesthetically pleasing but also optimized for performance and accessibility.</p>
-                  <p className='pt-3'>The successful redesign received positive feedback, showcasing NobleCanni's brand identity more effectively and enhancing user engagement. This internship allowed me to enhance my skills in web design, front-end development, and project management while emphasizing the importance of delivering an exceptional user experience.</p>
+                  <p>This project is a dynamic GUI application called Race Track that simulates a race between three cars on separate tracks. The application uses multithreading to ensure smooth animations and concurrent movements of the cars. Users can interact with the GUI, controlling the race with options to start, pause, and reset the race. As the cars progress randomly, the first car to cross the finish line triggers a winner screen, creating a seamless user experience. The project offers an engaging racing adventure that can be restarted at any time.</p>
+                  
     
     
-                  <a href='https://noblecanni.com/' alt='/' target='_blank'>
-                    <button className='px-8 py-2 mt-4 mr-8'> Current Site</button>
+                  <a href='https://github.com/aijaza1/RaceTrack' alt='/' target='_blank'>
+                    <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
                   </a>
                   
                 </div>
@@ -55,15 +54,15 @@ const car = () => {
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> WordPress
+                        <RiRadioButtonFill /> Java
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> HTML
+                        <RiRadioButtonFill /> JavaFX
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> CSS
+                        <RiRadioButtonFill /> IntelliJ
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>

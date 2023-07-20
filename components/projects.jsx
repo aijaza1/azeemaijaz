@@ -26,7 +26,7 @@ const Projects = () => {
           
 
           <ProjectItem
-            title='NobleCanni Web Dev Intern'
+            title='NobleCanni Web Intern'
             backgroundImg={nobleImg}
             projectUrl='/noble'
             tools='Wordpress | HTML | CSS | JS'
@@ -35,7 +35,7 @@ const Projects = () => {
             title='Comfort Calorie'
             backgroundImg={comfortImg}
             projectUrl='/comfort'
-            tools='NextJS | React | TailwindCSS | GitHub | Vercel'
+            tools='NextJS | React | TailwindCSS '
           />
           <ProjectItem
             title='Capstone Project'

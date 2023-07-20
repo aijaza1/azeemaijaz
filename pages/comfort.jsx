@@ -40,12 +40,15 @@ const comfort = () => {
               <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
                   <h2 className='mb-5'>Project Overview</h2>
-                  <p>During my web development internship at NobleCanni, I played an important role in completely redesigning their website, resulting in a significant improvement in its visual appeal and user experience. Working closely with the CEO and the developer team, I revitalized various sections, incorporating modern design elements and intuitive interfaces. Through meticulous attention to detail and rigorous testing, I ensured the website was not only aesthetically pleasing but also optimized for performance and accessibility.</p>
-                  <p className='pt-3'>The successful redesign received positive feedback, showcasing NobleCanni's brand identity more effectively and enhancing user engagement. This internship allowed me to enhance my skills in web design, front-end development, and project management while emphasizing the importance of delivering an exceptional user experience.</p>
+                  <p>Comfort Calorie is a responsive and user-friendly personal project designed to assist users with daily calorie intake tracking. The tool allows users to effortlessly calculate their required calorie intake based on individual goals, providing valuable insights for health and fitness. Leveraging an integrated API, Comfort Calorie enables users to search for any food and access comprehensive nutritional facts, including a calorie breakdown presented through an interactive pie chart. With its intuitive interface and robust features, Comfort Calorie empowers users to make informed dietary choices and achieve their health objectives.</p>
     
     
-                  <a href='https://noblecanni.com/' alt='/' target='_blank'>
-                    <button className='px-8 py-2 mt-4 mr-8'> Current Site</button>
+                  <a href='https://comfort-calorie.vercel.app/' alt='/' target='_blank'>
+                    <button className='px-8 py-2 mt-4 mr-8'>Comfort Calorie</button>
+                  </a>
+
+                  <a href='https://github.com/aijaza1/ComfortCalorie' alt='/' target='_blank'>
+                    <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
                   </a>
                   
                 </div>
@@ -55,19 +58,27 @@ const comfort = () => {
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> WordPress
+                        <RiRadioButtonFill /> NextJS
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> HTML
+                        <RiRadioButtonFill /> React
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> CSS
+                        <RiRadioButtonFill /> TailwindCSS
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> JavaScript
+                        <RiRadioButtonFill /> Github
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> Vercel
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> VS Code
                       </p>
                     </div>
     

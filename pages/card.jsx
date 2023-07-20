@@ -40,12 +40,11 @@ const card = () => {
               <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
                   <h2 className='mb-5'>Project Overview</h2>
-                  <p>During my web development internship at NobleCanni, I played an important role in completely redesigning their website, resulting in a significant improvement in its visual appeal and user experience. Working closely with the CEO and the developer team, I revitalized various sections, incorporating modern design elements and intuitive interfaces. Through meticulous attention to detail and rigorous testing, I ensured the website was not only aesthetically pleasing but also optimized for performance and accessibility.</p>
-                  <p className='pt-3'>The successful redesign received positive feedback, showcasing NobleCanni's brand identity more effectively and enhancing user engagement. This internship allowed me to enhance my skills in web design, front-end development, and project management while emphasizing the importance of delivering an exceptional user experience.</p>
+                  <p>In a personal project, I developed a flashcard app using Python and utilized the Tkinter library for the graphical user interface. The goal was to create a tool for practicing words in my home language, Urdu. With the app, I could easily add new words to the flashcard deck and review them at my own pace. The intuitive interface allowed me to navigate through the flashcards and test my knowledge effectively. By implementing this project, I enhanced my Python programming skills and created a practical tool for language learning tailored to me or any user's specific needs.</p>
+          
     
-    
-                  <a href='https://noblecanni.com/' alt='/' target='_blank'>
-                    <button className='px-8 py-2 mt-4 mr-8'> Current Site</button>
+                  <a href='https://github.com/aijaza1/Flashcard' alt='/' target='_blank'>
+                    <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
                   </a>
                   
                 </div>
@@ -55,20 +54,18 @@ const card = () => {
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> WordPress
+                        <RiRadioButtonFill /> Python
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> HTML
+                        <RiRadioButtonFill /> PyCharm
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> CSS
+                        <RiRadioButtonFill /> Tkinter
                       </p>
     
-                      <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> JavaScript
-                      </p>
+                     
                     </div>
     
                   </div>
