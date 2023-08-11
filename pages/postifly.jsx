@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import '../app/globals.css'
-import postImg from '/public/assets/projects/postiflydetails.png';
+import postImg from '/public/assets/projects/postiflydet.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Navbar from "../components/Navbar";
