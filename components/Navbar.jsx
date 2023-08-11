@@ -15,13 +15,13 @@ const Navbar = () => {
   const router = usePathname();
 
   const specialRoutes = [
-
     '/noble',
     '/comfort',
     '/capstone',
     '/card',
     '/car',
     '/fifo',
+    '/postifly',
   ];
 
   // Function to scroll to a specific section

@@ -11,6 +11,7 @@ import brightminds from '/public/assets/projects/brightminds.png';
 import fifo from '/public/assets/projects/a3fifo.png';
 import shell from '/public/assets/projects/shell.png';
 import cap from '/public/assets/projects/capstoneposter.png';
+import post from '/public/assets/projects/postiflysc.png';
 import ProjectItem from './ProjectItem';
 
 
@@ -35,7 +36,19 @@ const Projects = () => {
             title='Comfort Calorie'
             backgroundImg={comfortImg}
             projectUrl='/comfort'
-            tools='NextJS | React | TailwindCSS '
+            tools='NextJS | React | TailwindCSS'
+          />
+          <ProjectItem
+            title='Postifly'
+            backgroundImg={post}
+            projectUrl='/postifly'
+            tools='NextJS | React | TailwindCSS | Prisma'
+          />
+          <ProjectItem
+            title='Flash Card App'
+            backgroundImg={cards}
+            projectUrl='/card'
+            tools='Python | PyCharm | Tkinter'
           />
           <ProjectItem
             title='Capstone Project'
@@ -48,18 +61,6 @@ const Projects = () => {
             backgroundImg={race}
             projectUrl='/car'
             tools='Java | JavaFX | IntelliJ'
-          />
-          <ProjectItem
-            title='Flash Card App'
-            backgroundImg={cards}
-            projectUrl='/card'
-            tools='Python | PyCharm | Tkinter'
-          />
-          <ProjectItem
-            title='FIFO Multi-Threaded Queue'
-            backgroundImg={fifo}
-            projectUrl='/fifo'
-            tools='C | Linux | Command Line'
           />
 
           
