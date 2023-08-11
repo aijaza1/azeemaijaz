@@ -70,6 +70,10 @@ const postifly = () => {
                       </p>
 
                       <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> Typescript
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
                         <RiRadioButtonFill /> Prisma
                       </p>
 
