@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
 import '../app/globals.css'
-import carImg from '/public/assets/projects/racetrack.png';
+import chatImg from '/public/assets/projects/chatclosesc.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Navbar from "../components/Navbar";
 
 
 
-const car = () => {
+const card = () => {
     return (
 
     
@@ -26,12 +26,13 @@ const car = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={carImg}
+          src={chatImg}
           alt='/'
         />
                 
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                  <h2>JavaFx Race Track</h2>
+                  <h2>Python Live Chat App</h2>
+                  <h3>Personal Project</h3>
                 </div>
     
               </div>
@@ -39,11 +40,10 @@ const car = () => {
               <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                 <div className='col-span-4'>
                   <h2 className='mb-5'>Project Overview</h2>
-                  <p>This project is a dynamic GUI application called Race Track that simulates a race between three cars on separate tracks. The application uses multithreading to ensure smooth animations and concurrent movements of the cars. Users can interact with the GUI, controlling the race with options to start, pause, and reset the race. As the cars progress randomly, the first car to cross the finish line triggers a winner screen, creating a seamless user experience. The project offers an engaging racing adventure that can be restarted at any time.</p>
-                  
+                  <p>With the goal of learning Flask and Socket.io, I created a Python Live Chat Appliation. This project showcases a web-based chat application built with Flask and Socket.io. Its primary focus is on enabling seamless real-time communication between users. The application allows users to create new chat rooms or join existing ones using unique room codes, facilitating instant and secure conversations. Its architecture leverages Flask, a Python web framework, for server-side operations, while Socket.io handles the WebSocket-based communication for real-time messaging.</p>
+          
     
-    
-                  <a href='https://github.com/aijaza1/RaceTrack' alt='/' target='_blank'>
+                  <a href='https://github.com/aijaza1/Flashcard' alt='/' target='_blank'>
                     <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
                   </a>
                   
@@ -54,17 +54,34 @@ const car = () => {
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> Java
+                        <RiRadioButtonFill /> Python
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> JavaFX
+                        <RiRadioButtonFill /> Flask
                       </p>
     
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill /> IntelliJ
+                        <RiRadioButtonFill /> SocketIO
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> JavaScript
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> CSS
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> VS Code
+                      </p>
+
+                      <p className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill /> GitHub
                       </p>
     
+                     
                     </div>
     
                   </div>
@@ -81,4 +98,4 @@ const car = () => {
       )
 };
 
-export default car;
+export default card;

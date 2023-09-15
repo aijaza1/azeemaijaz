@@ -22,6 +22,7 @@ const Navbar = () => {
     '/car',
     '/fifo',
     '/postifly',
+    '/chat',
   ];
 
   // Function to scroll to a specific section

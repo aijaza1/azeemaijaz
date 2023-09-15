@@ -45,7 +45,7 @@ const main = () => {
                         </div>
                     </a>
 
-                    <a href='/assets/AzeemAijaz-Resume.pdf' alt='/' target='_blank'>
+                    <a href='/assets/Azeem-Resume.pdf' alt='/' target='_blank'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineFilePdf size={25}/>
                         </div>

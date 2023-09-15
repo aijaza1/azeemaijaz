@@ -12,6 +12,8 @@ import fifo from '/public/assets/projects/a3fifo.png';
 import shell from '/public/assets/projects/shell.png';
 import cap from '/public/assets/projects/capstoneposter.png';
 import post from '/public/assets/projects/postiflysc.png';
+import postsc from '/public/assets/projects/postsc.png';
+import chat from '/public/assets/projects/chatimg.png';
 import ProjectItem from './ProjectItem';
 
 
@@ -40,16 +42,24 @@ const Projects = () => {
           />
           <ProjectItem
             title='Postifly'
-            backgroundImg={post}
+            backgroundImg={postsc}
             projectUrl='/postifly'
-            tools='NextJS | React | TailwindCSS | Prisma'
+            tools='NextJS | React | TailwindCSS | Postgres'
           />
+          <ProjectItem
+            title='Live Chat Room'
+            backgroundImg={chat}
+            projectUrl='/chat'
+            tools='Python | Flask | SocketIO'
+          />
+          {/* hamburger menu 
           <ProjectItem
             title='Flash Card App'
             backgroundImg={cards}
             projectUrl='/card'
             tools='Python | PyCharm | Tkinter'
           />
+          */}
           <ProjectItem
             title='Capstone Project'
             backgroundImg={cap}
