@@ -43,7 +43,7 @@ const card = () => {
                   <p>With the goal of learning Flask and Socket.io, I created a Python Live Chat Appliation. This project showcases a web-based chat application built with Flask and Socket.io. Its primary focus is on enabling seamless real-time communication between users. The application allows users to create new chat rooms or join existing ones using unique room codes, facilitating instant and secure conversations. Its architecture leverages Flask, a Python web framework, for server-side operations, while Socket.io handles the WebSocket-based communication for real-time messaging.</p>
           
     
-                  <a href='https://github.com/aijaza1/Flashcard' alt='/' target='_blank'>
+                  <a href='https://github.com/aijaza1/LiveChatApp' alt='/' target='_blank'>
                     <button className='px-8 py-2 mt-4 mr-8'>Source Code</button>
                   </a>
                   
